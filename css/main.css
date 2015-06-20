@@ -54,6 +54,13 @@ body {
 		z-index:10;
 
 	}
+	.ryu-cool {
+		background-image:url('../images/ryu-cool.gif');
+	}
 
-	
-
+	.how-to {
+		font-family:comical;
+		font-size:50px;
+		width:600px;
+		float:right;
+	}
