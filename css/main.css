@@ -49,7 +49,7 @@ body {
 		display:none;
 		float:left;
 		position:absolute;
-		top:300px;
+		top:200px;
 		left:560px;
 		z-index:10;
 
@@ -59,8 +59,24 @@ body {
 	}
 
 	.how-to {
-		font-family:cursive;
-		font-size:50px;
+		position:absolute;
+		left:650px;
+		height:425px;
+		font-family:comic;
+		font-size:75px;
 		width:600px;
 		float:right;
+	}
+
+	.how-to p {
+		width:50%;
+		color:black;
+		font-size:40px;
+		line-height:45px;
+		padding-top:20px;
+
+	}
+
+	.how-to p + p {
+		margin-left:275px;
 	}
